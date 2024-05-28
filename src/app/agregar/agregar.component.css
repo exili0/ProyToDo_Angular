@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: rgb(124, 64, 255);
+    color: aliceblue;
 }
 
 .bloque p {
@@ -10,4 +12,15 @@
 
 .bloque input {
     margin-right: 20px;
+}
+
+button {
+    background-color: rgb(157, 130, 255);
+    border-radius: 20px;
+    border-color: aliceblue;
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+
+
 }

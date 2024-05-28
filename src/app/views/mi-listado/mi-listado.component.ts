@@ -24,8 +24,17 @@ export class MiListadoComponent {
       }
     ]
   }
+
   public mostrar(esteResumen: String): void {
     alert(`   Seleccionada: ${esteResumen}`);
     //alert("Seleccionada:" + esteResumen);
   }
+
+
+  // USAR BOTON
+  public cambiarEstadoBoton() {
+
+  }
+
+
 }
