@@ -1,0 +1,13 @@
+#listado {
+    background-color: rgb(192, 116, 255);
+    height: 80vh;
+}
+
+#listado h3 {
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(157, 130, 255);
+    border-radius: 20px;
+}

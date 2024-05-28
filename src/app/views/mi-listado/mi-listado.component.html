@@ -1,0 +1,8 @@
+<div id='listado'>
+@for(cadaTarea of listadoTareas; track $index) {
+    <button>Completar</button>
+    <app-tarea
+    [tareaAtr]="cadaTarea"
+    (click)="mostrar(cadaTarea.resumen)" />
+}
+</div>  

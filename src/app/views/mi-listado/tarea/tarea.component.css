@@ -1,0 +1,14 @@
+.tarea {
+    padding: 5px;
+    margin: 5px;
+    color: aliceblue;
+    background-color: rgb(144, 0, 255);
+    border-radius: 5px;
+}
+
+.tarea p {
+    background-color: aliceblue;
+    color: rgb(144, 0, 255);
+    padding: 10px;
+    border-radius: 10px;
+}

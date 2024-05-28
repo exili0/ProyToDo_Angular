@@ -1,0 +1,13 @@
+.bloque {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bloque p {
+    margin-right: 10px;
+}
+
+.bloque input {
+    margin-right: 20px;
+}
