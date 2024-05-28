@@ -2,4 +2,16 @@
     <h4>{{tareaAtr.resumen}}</h4>
     <p>{{tareaAtr.detalle}}</p>
     
-    </div>
+</div>
+
+@if (completado==false) {
+    <button (click)="btnCompletar()">Completar</button>
+}
+@else{
+    <button (click)="btnCompletar()">Deshacer</button>
+    <!----------------------------------------------->
+    <div class='completado'>
+        <h2 class="estado">COMPLETADO</h2>
+    </div> 
+    <!-- CAMBIAR PARA QUE SALGA DE FORMA INDIVIDUAL-->
+}

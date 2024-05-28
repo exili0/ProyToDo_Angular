@@ -6,11 +6,24 @@
     border-radius: 5px;
 }
 
-
-
 .tarea p {
     background-color: aliceblue;
     color: rgb(144, 0, 255);
     padding: 10px;
     border-radius: 10px;
+}
+
+.completado h2 {
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgb(157, 130, 255);
+    border-radius: 20px;
+    border-color: aliceblue;
+    cursor: pointer;
+    height: 7%;
 }

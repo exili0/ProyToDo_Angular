@@ -1,7 +1,9 @@
 <div class="bloque">
     <p>Resumen:</p>
-    <input>
+    <input type=datoResumen required [(ngModel)]="textoResumen">
     <p>Detalle:</p>
-    <input>
-    <button>Crear</button>
+    <input type="datoDetalle" required [(ngModel)]="textoDetalle">
+
+    <!--<button (click)="crearTarea()">Guardar</button>-->
+    
 </div>
